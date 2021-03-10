@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+}
+
+.top {
+    width: 100%;
+    height: 60px;
+    background: black;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.giohang {
+    color: white;
+    float: right;
+    padding-top: 3px;
+    text-align: center;
+}
+
+.giohang p {
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.giohang a:hover {
+    color: aqua;
+}
+
+.giohang a:link,
+.giohang a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    border-bottom: solid 1px #cecdcd;
+    text-align: center;
+}
+
+.logo a:link,
+.logo a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+#divLeft {
+    width: 70%;
+    height: 60px;
+    float: left;
+}
+
+#divRight {
+    width: 30%;
+    height: 60px;
+    float: left;
+    position: relative;
+}
+
+#divLeft ul li {
+    float: left;
+    padding-right: 50px;
+    font-size: 20px;
+    list-style: none;
+}
+
+#divLeft ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#divLeft ul li a:hover {
+    color: aqua;
+}
+
+#btnSearch {
+    background: url(images/magnifier.png)no-repeat;
+    border: 0px;
+    display: inline-block;
+    cursor: pointer;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    position: absolute;
+    right: 0.5%;
+    top: 12px;
+}
+
+#txtSearch {
+    padding: 8px;
+    margin: 7px;
+    width: 200px;
+    float: right;
+}
+
+#containSearch {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: 450px;
+}
+
+.about {
+    height: 400px;
+}
+
+.spnoibat img {
+    float: left;
+    padding-top: 50px;
+    padding-right: 20px;
+    width: 370px;
+}
+
+.detailproduct {
+    padding-top: 60px;
+}
+
+.thongtinsp {
+    text-decoration: none;
+}
+
+.oneproduct {
+    border: solid 1px #cac4c4;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    padding: 20px 20px 20px 20px;
+    float: left;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+.hinhsp img {
+    width: 200px;
+    height: 200px;
+}
+
+.info {
+    float: left;
+    width: 25%;
+    height: auto;
+}
+
+.info ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.info h2 {
+    color: black;
+}
+
+.info ul li a {
+    text-decoration: none;
+}
+
+.info ul li a:link,
+.info ul li a:visited {
+    color: gray;
+}
+
+.info ul li a:hover {
+    color: aquamarine;
+}
+
+span.social {
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+}
+
+#facebook {
+    background: url(images/icons.png);
+    background-position: 0 0;
+}
+
+#twitter {
+    background: url(images/icons.png);
+    background-position: -215px 0;
+}
+
+#google {
+    background: url(images/icons.png);
+    background-position: -70px 0;
+}
+
+.txtsocial {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -50px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.info ul {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.phanvung {
+    width: 100%;
+}
+
+#leftFooter {
+    width: 40%;
+    float: left;
+}
+
+#rightFooter {
+    width: 60%;
+    float: left;
+}
+
+#acb {
+    font-size: 20px;
+    width: 300px;
+}
+
+#abc {
+    font-size: 20px;
+}
